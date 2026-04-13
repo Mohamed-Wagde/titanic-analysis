@@ -1,72 +1,82 @@
 # Titanic Survival Analysis 🚢
 
-## 📌 Project Overview
-This project analyzes the Titanic dataset to explore the factors that influenced passenger survival.
-The analysis focuses on identifying patterns and relationships between different variables such as gender, age, and passenger class.
+## 📌 Overview
+
+This project analyzes the Titanic dataset to investigate the key factors that influenced passenger survival.
+The analysis focuses on identifying patterns and relationships between variables such as gender, age, and passenger class.
 
 ---
 
-## 🎯 Objective
-- Understand survival distribution among passengers
-- Identify key factors affecting survival
-- Generate insights using data analysis and visualization
+## 🎯 Objectives
+
+* Analyze survival distribution among passengers
+* Identify the most influential factors affecting survival
+* Provide data-driven insights using visualization
 
 ---
 
 ## 📊 Dataset
-The dataset used in this project is the Titanic dataset from Kaggle.
 
-Main features include:
-- Passenger class (Pclass)
-- Gender (Sex)
-- Age
-- Fare
-- Survival status (Survived)
+The dataset is sourced from the Titanic competition on Kaggle.
+It includes passenger information such as:
 
----
-
-## 🛠️ Tools & Technologies
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+* Passenger Class (Pclass)
+* Gender (Sex)
+* Age
+* Fare
+* Survival Status (Survived)
 
 ---
 
-## 🔍 Data Analysis Process
+## 🛠️ Tools & Libraries
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+---
+
+## 🔍 Analysis Process
 
 ### 1. Data Cleaning
-- Handled missing values (Age, Cabin)
-- Converted categorical data into numerical format
+
+* Handled missing values (Age, Cabin)
+* Converted categorical variables into numerical format
 
 ### 2. Exploratory Data Analysis (EDA)
-- Analyzed survival rates by gender
-- Compared survival across passenger classes
-- Studied age distribution impact
 
-### 3. Data Visualization
-- Bar charts for survival by gender
-- Distribution plots for age
-- Class vs survival comparisons
+* Survival rate by gender
+* Survival rate by passenger class
+* Age distribution and its effect on survival
+
+### 3. Visualization
+
+* Bar charts for survival comparison
+* Distribution plots for age
+* Class vs survival analysis
 
 ---
 
-## 📈 Key Insights
-- Females had a significantly higher survival rate than males
-- First-class passengers had better survival chances
-- Younger passengers (children) were more likely to survive
-- Passenger class strongly influenced survival probability
+## 📈 Key Findings
+
+* Female passengers had a significantly higher survival rate than males
+* First-class passengers were more likely to survive
+* Younger passengers had better survival chances
+* Socio-economic status played a major role in survival
 
 ---
 
 ## 🧠 Conclusion
-The analysis shows that survival on the Titanic was not random.
-It was strongly influenced by gender, socio-economic status (class), and age.
+
+Survival on the Titanic was strongly influenced by gender, class, and age.
+These factors highlight how priority and social structure affected rescue outcomes.
 
 ---
 
 ## 📂 Project Structure
+
 titanic-analysis/
 │
 ├── data/
@@ -78,13 +88,19 @@ titanic-analysis/
 ---
 
 ## ▶️ How to Run
-1. Install dependencies:
-   pip install -r requirements.txt
 
-2. Run the notebook:
-   Open notebooks/analysis.ipynb
+```bash
+pip install -r requirements.txt
+```
+
+Open:
+
+```
+notebooks/analysis.ipynb
+```
 
 ---
 
 ## 👤 Author
-Your Name
+
+Mohamed Wagde
