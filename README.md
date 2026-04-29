@@ -1,13 +1,13 @@
-# Titanic Survival Analysis 🚢
+# Titanic Survival Analysis 
 
-## 📌 Overview
+##  Overview
 
 This project analyzes the Titanic dataset to investigate the key factors that influenced passenger survival.
 The analysis focuses on identifying patterns and relationships between variables such as gender, age, and passenger class.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 * Analyze survival distribution among passengers
 * Identify the most influential factors affecting survival
@@ -15,7 +15,7 @@ The analysis focuses on identifying patterns and relationships between variables
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 The dataset is sourced from the Titanic competition on Kaggle.
 It includes passenger information such as:
@@ -28,7 +28,7 @@ It includes passenger information such as:
 
 ---
 
-## 🛠️ Tools & Libraries
+##  Tools & Libraries
 
 * Python
 * Pandas
@@ -38,7 +38,7 @@ It includes passenger information such as:
 
 ---
 
-## 🔍 Analysis Process
+##  Analysis Process
 
 ### 1. Data Cleaning
 
@@ -75,7 +75,7 @@ These factors highlight how priority and social structure affected rescue outcom
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 titanic-analysis/
 │
@@ -87,7 +87,7 @@ titanic-analysis/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 pip install -r requirements.txt
@@ -101,6 +101,6 @@ notebooks/analysis.ipynb
 
 ---
 
-## 👤 Author
+##  Author
 
 Mohamed Wagde
